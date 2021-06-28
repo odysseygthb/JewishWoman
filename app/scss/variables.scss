@@ -1,0 +1,19 @@
+$main-color: #0849FF;
+$yellow: #FAC807;
+
+@mixin full-screen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@mixin flex-standart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin info-and-footer {
+  display: grid;
+  grid-template-rows: 85% 15%;
+}
